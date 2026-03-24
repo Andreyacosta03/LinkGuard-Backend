@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import router from "./router/url.routes.js";
 import "dotenv/config";
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 const app = express();
 app.disable("x-powered-by");
 
